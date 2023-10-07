@@ -1,0 +1,18 @@
+<p>two-way-binding works!</p>
+<input type="text" #h placeholder="entername">
+<button (click)="onclick(h)">clickme</button><br>
+<input type="text" #course placeholder="coursename">
+<button (click)="onclicked(course)">clickedme</button><br>
+myname is:
+<span>{{val}}</span><br>
+my course is:<span>{{val2}}</span><br>
+<input type="text" [(ngModel)]="myText">
+<p>{{myText}}</p>
+<div class="example-button-row">
+ 
+    <button mat-raised-button color="primary">Primary</button>
+    
+  </div>
+
+
+  

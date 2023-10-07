@@ -1,0 +1,18 @@
+<p>courses-details</p>
+<!-- <h1 *ngFor="let x of details">
+    {{x |json}}
+</h1> -->
+<h1 *ngFor="let x of details">
+    <h2 *ngFor="let y of x | keyvalue">
+        {{y.key}}--
+{{y.value}}
+    </h2>
+</h1>
+<!-- <input type="text" #vc (keyup)="search(vc.value)"> -->
+<input type="text" [formControl]="country">
+<h1 *ngFor="let x of msg" >
+    <h2>{{x.name.common}}</h2>
+</h1>
+{{vc}}
+{{vc2}}
+<button (click)="onBack()">back</button>

@@ -1,0 +1,21 @@
+<p>ngif works!</p>
+<h4 *ngIf="check">codinghub</h4>
+<h4 *ngIf="check1">chipl</h4>
+<h4 *ngIf="check1;else eblock">hyderabad</h4>
+<!-- else block -->
+<ng-template #eblock>
+    <p>warangal</p>
+</ng-template>
+<!-- using then -->
+<h4 *ngIf="check1; then tBlock else fblock"></h4>
+<!-- true block -->
+<ng-template #tBlock>
+<h1>hello all</h1>
+<h2>goodmorning</h2>
+</ng-template>
+<!-- false block -->
+<ng-template #fblock>
+<h1>hi all</h1>
+<h2> from vc</h2>
+</ng-template>
+

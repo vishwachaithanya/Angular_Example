@@ -1,0 +1,22 @@
+.textSize{
+    font-size:100px;
+}
+.textcolor{
+    color:red;
+}
+.fontcolor{
+    background-color: yellow;
+
+}
+.online{
+    color:red;
+    background-color:black;
+}
+.offline{
+    color:yellow;
+    background-color: black;
+}
+.def{
+   text-align: center;
+   color:blueviolet;
+}

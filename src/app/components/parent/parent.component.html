@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<app-child (message)="received($event)" [postman]="displayText" [postData]="myObject | json" [postArray]="arr[0].name"></app-child>
+{{getmsg}}
+<h1>Through view child:{{getmsg2}}</h1>
